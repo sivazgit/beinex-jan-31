@@ -1,0 +1,45 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+
+.text-video {
+    // display: flex;
+    padding-top: 30px;
+    font-size: $font-md;
+
+    .container {
+        .row {
+            #text{
+                padding: 80px;
+                h4 {
+                    color: $color-primary;
+                    font-size: 25px;
+                    font-weight:800;
+                }
+                p{
+                    color: $color-secondary;
+                    font-size: 13px;
+                }
+
+                img{
+                    width: 100px;
+                    height: 100px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    position: absolute;
+                    background-size: cover;
+                    opacity: 0.1;
+                    top: 30%;
+                    left: 7%;
+                }
+
+            
+            }
+            #video{
+                padding-left: 15px;
+            }
+
+        }
+    }
+}

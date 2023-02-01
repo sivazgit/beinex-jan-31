@@ -1,0 +1,121 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.footer{
+    background: linear-gradient(#191849,#08215c);
+    .container{
+        
+            .row{
+                .col-lg-12.col-sm-12{
+                    .footerlinks{
+                        padding-top:25px;
+                        display: flex;
+                        margin-left: 30px;
+                        margin-right: 30px;
+                        font-size: 13px;
+                        a{
+                            color: $color-white;
+                            text-decoration: none;
+                            font-weight: lighter;
+
+                            &:hover{
+                                text-decoration: underline;
+                                color: violet;
+                            }
+                        }
+                            p{
+                                color: $color-white;
+                                font-weight: bold;
+                                margin-bottom: 20px;
+                                margin-left: 25px;
+                            }
+
+                            img{
+                                margin-bottom: 25px;
+                            }
+                        .first{
+                            a{
+                                display: block;
+                                margin-left: 30px;
+                            }
+                        }
+                        .second{
+                            #second-first{
+                                a{
+                                    display: block;
+                                    margin-left: 30px;
+                                }
+                            }
+                        }
+                        #second-sec{
+                            margin-top: 37px;
+                            a{
+                                display: block;
+                                margin-left: 30px;
+                            }
+                        }
+                        .industries{
+                            a{
+                                display: block;
+                                margin-left: 30px;
+                            }
+                        }
+
+                        .partners{
+                            #sec-first{
+                                a{
+                                    display: block;
+                                    margin-left: 30px;
+                                }
+                            }
+                        }
+
+                        #sec-second{
+                            a{
+                                display: block;
+                                margin-left: 30px;
+                            }
+                        }
+                    }
+                }
+                
+         
+        }
+    }
+}
+
+
+.footer2{
+    background-color: #150d2b;
+    width:100%;
+    height: 150px;
+    .container{
+        .row{
+            .footersection{
+                padding-top: 30px;
+                margin: auto;
+                font-size: 13px;
+                .link1{
+                    a{
+                        color: $color-white;
+                        margin-left: 10px;
+                        &:hover{color: cornflowerblue;}
+                    }
+                }
+
+                .link2{
+                    a{
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                p{
+                    color: $color-white;
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}

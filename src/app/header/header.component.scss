@@ -1,0 +1,54 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+
+.header {
+    .container {
+        width: 100%;
+        height: auto;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            img {
+
+                width: 150px;
+                height: 35px;
+                
+
+            }
+
+            #head-links{
+                ul li{
+                    display: inline;
+                    font-size: 13px;
+                    list-style-type: none;
+                    margin-left: 15px;
+                    a{
+                        color:$color-primary;
+                        text-decoration: none;
+                        
+                        &:hover{
+                            color:purple;
+                            font-size:15px;
+                            text-decoration: underline;
+                        }
+
+                    }
+                }
+            }
+           
+        }
+    }
+}
+
+.testimonials{
+    background-color: $color-primary;
+    color: $color-white;
+    text-align: center;
+    height: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 600;
+}

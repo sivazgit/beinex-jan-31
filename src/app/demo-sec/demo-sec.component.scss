@@ -1,0 +1,70 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.demo-sec{ 
+    margin-top: 40px; 
+    .container{
+        .demo-para{
+            
+           h4{
+            padding-left: 20px;
+            font-weight: 900;
+            color: $color-primary;
+           }
+           form{
+            padding: 20px;
+            input{
+                border:1px solid $color-bcontent;
+                width:250px;
+                height:30px;
+                margin-left: 5px;
+                margin-right: 5px;
+                padding: 5px;
+            }
+            .first-row{
+                display:flex ;
+                padding: 10px;
+               }
+               .second-row{
+                display:flex ;
+                padding: 10px;
+               }
+               .third-row{
+                    display:flex ;
+                    padding: 10px;                 
+               }
+              textarea{
+                width: 510px;
+                height: 70px;
+                border:1px solid $color-bcontent;
+                margin-left: 15px;
+                padding: 5px;
+               }
+               .frm-btn{
+                background-color: $color-primary;
+                color: $color-white;
+                margin-left: 15px;
+                font-size: 13px;
+                padding: 5px;
+               }
+           }
+           .para{
+            border-left: 1px solid $color-bcontent;
+            height: 250px;
+            padding: 30px;
+            h4{
+                color: $color-primary;
+                font-family: 400;
+                margin-left: 50px;
+            }
+            p{
+                font-size: 13px;
+                color: $color-bcontent;
+                margin-left: 70px;
+                margin-right: 70px;
+            }
+           }
+        }
+    }
+}
