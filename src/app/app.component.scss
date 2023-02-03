@@ -1,0 +1,27 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+
+.main-header{
+    background-color: $color-teritiary;
+    .col-lg-4.col-sm-12{
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
+                a{
+                    color:darkturquoise;
+                    text-decoration: none;
+                    padding: 5px;
+                    font-size: 15px;
+                    &:hover{
+                        font-size: 18px;
+                        color: $color-white;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
